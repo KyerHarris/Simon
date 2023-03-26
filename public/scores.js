@@ -2,7 +2,7 @@ async function loadScores() {
   let scores = [];
   try {
     // Get the latest high scores from the service
-    const response = await fetch('http://localhost:3000/api/scores');
+    const response = await fetch('/api/scores');
     scores = await response.json();
 
     // Save the scores in case we go offline in the future
