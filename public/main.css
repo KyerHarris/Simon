@@ -147,10 +147,19 @@ footer a {
   transform: translateX(-50%) translateY(-50%);
 }
 
-#playerName {
+.player-name {
   color: rgb(118, 190, 210);
-  font-size: 1.5em;
+}
+
+.players {
+  flex: 1;
+  width: 100%;
   padding: 0.5em;
+}
+
+#player-messages {
+  padding-top: 0.25em;
+  opacity: 0.7;
 }
 
 @media (max-height: 500px) {
